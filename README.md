@@ -1,4 +1,8 @@
-## Welcome to GitHub Pages
+# property--value CSS mini-library
+
+[![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://opensource.org/licenses/mit-license.php)
+
+[![property--value logo](https://commercialprogression.github.io/property--value/assets/property--value_logo.png)](https://commercialprogression.github.io/property--value/)
 
 You can use the [editor on GitHub](https://github.com/commercialprogression/property--value/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
