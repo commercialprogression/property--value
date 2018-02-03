@@ -1,41 +1,136 @@
 # property--value CSS mini-library
 
-[![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://opensource.org/licenses/mit-license.php)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 [![property--value logo](https://commercialprogression.github.io/property--value/assets/property--value_logo.png)](https://commercialprogression.github.io/property--value/)
 
-You can use the [editor on GitHub](https://github.com/commercialprogression/property--value/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+property--value is a tiny utility library of the CSS properties that have keyword values, written with two dashes between the property and the keyword value.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Class list
 
-### Markdown
+  * align-content--center
+  * align-content--flex-end
+  * align-content--flex-start
+  * align-content--space-around
+  * align-content--space-between (align-content--dave-matthews)
+  * align-content--space-evenly
+  * align-content--stretch
+  * align-items--baseline
+  * align-items--center
+  * align-items--flex-end
+  * align-items--flex-start
+  * align-items--stretch
+  * align-self--baseline
+  * align-self--center
+  * align-self--flex-end
+  * align-self--flex-start
+  * align-self--stretch
+  * background-attachment--fixed
+  * background-attachment--local
+  * background-attachment--scroll
+  * background-position-x--center
+  * background-position-x--left
+  * background-position-x--right
+  * background-position-y--bottom
+  * background-position-y--center
+  * background-position-y--top
+  * background-repeat--no-repeat
+  * background-repeat--repeat
+  * background-repeat--repeat-x
+  * background-repeat--repeat-y
+  * background-repeat--round
+  * background-repeat--space
+  * background-size--auto
+  * background-size--contain
+  * background-size--cover
+  * clear--both
+  * clear--left
+  * clear--none
+  * clear--right
+  * display--block
+  * display--flex
+  * display--grid
+  * display--inline
+  * display--inline-block
+  * display--table
+  * filter--blur
+  * filter--brightness
+  * filter--contrast
+  * filter--grayscale
+  * filter--invert
+  * filter--saturate
+  * filter--sepia
+  * flex--1
+  * flex--2
+  * flex--3
+  * flex--4
+  * flex--5
+  * flex--6
+  * flex--auto
+  * flex--initial
+  * flex--none
+  * flex-direction--column
+  * flex-direction--column-reverse
+  * flex-direction--row
+  * flex-direction--row-reverse
+  * flex-wrap--nowrap
+  * flex-wrap--wrap
+  * flex-wrap--wrap-reverse
+  * float--left
+  * float--right
+  * font-stretch--condensed
+  * font-stretch--expanded
+  * font-stretch--extra-condensed
+  * font-stretch--extra-expanded
+  * font-stretch--normal
+  * font-stretch--semi-condensed
+  * font-stretch--semi-expanded
+  * font-stretch--ultra-condensed
+  * font-stretch--ultra-expanded
+  * font-style--italic
+  * font-weight--100 (font-weight--lighter)
+  * font-weight--200
+  * font-weight--300 (font-weight--light)
+  * font-weight--400 (font-weight--normal)
+  * font-weight--500
+  * font-weight--600 (font-weight--bold)
+  * font-weight--700 (font-weight--bolder)
+  * font-weight--800
+  * font-weight--900
+  * justify-content--center
+  * justify-content--flex-end
+  * justify-content--flex-start
+  * justify-content--space-around
+  * justify-content--space-between (justify-content--dave-matthews)
+  * justify-content--space-evenly
+  * justify-content--stretch
+  * overflow--auto
+  * overflow--hidden
+  * overflow--overlay
+  * overflow--scroll
+  * overflow--visible
+  * position--absolute
+  * position--fixed
+  * position--relative
+  * position--static
+  * position--sticky
+  * text-align--center
+  * text-align--justify
+  * text-align--left
+  * text-align--right
+  * text-transform--capitalize
+  * text-transform--lowercase
+  * text-transform--none
+  * text-transform--uppercase
+  * vertical-align--baseline
+  * vertical-align--bottom
+  * vertical-align--middle
+  * vertical-align--sub
+  * vertical-align--super
+  * vertical-align--text-bottom
+  * vertical-align--text-top
+  * vertical-align--top
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Support/Contributing/etc.
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/commercialprogression/property--value/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Coming soon.
