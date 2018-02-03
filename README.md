@@ -1,6 +1,8 @@
 # property--value CSS mini-library
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![node.js dependencies](https://david-dm.org/commercialprogression/property--value.svg)](https://david-dm.org/commercialprogression/property--value)
+[![node.js dev dependencies](https://david-dm.org/commercialprogression/property--value/dev-status.svg)](https://david-dm.org/commercialprogression/property--value?type=dev)
 
 [![property--value logo](https://commercialprogression.github.io/property--value/assets/property--value_logo.png)](https://commercialprogression.github.io/property--value/)
 
