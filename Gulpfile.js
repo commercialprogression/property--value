@@ -1,7 +1,20 @@
+'use strict';
+
 var gulp = require('gulp'),
+  cleanCSS = require('gulp-clean-css'),
+  rename = require('gulp-rename'),
   sass = require('gulp-sass'),
   sourcemaps = require('gulp-sourcemaps'),
   watch = require('gulp-watch');
+
+gulp.task('css', function () {
+  return gulp.src('dist/property--value.css')
+    .pipe(cleanCSS({
+      compatibility: '*'
+    }))
+    .pipe(rename({suffix: '.min'}))
+    .pipe(gulp.dest('./dist/'));
+});
 
 gulp.task('sass', function() {
   gulp.src('scss/property--value.scss')
