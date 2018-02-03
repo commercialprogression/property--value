@@ -1,0 +1,21 @@
+{
+  "name": "property--value",
+  "version": "0.1.0",
+  "authors": [
+    "Brad Czerniak <brad@commercialprogression.com>"
+  ],
+  "description": "Simple CSS mini-library without the cruft.",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "https://github.com/commercialprogression/property--value",
+  "private": false,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {}
+}
