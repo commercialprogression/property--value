@@ -6,7 +6,13 @@
 
 [![property--value logo](https://commercialprogression.github.io/property--value/assets/property--value_logo.png)](https://commercialprogression.github.io/property--value/)
 
-property--value is a tiny utility library of the CSS properties that have keyword values, written with two dashes between the property and the keyword value.
+property--value is a tiny utility library of the CSS properties that have keyword values, 
+written with two dashes between the property and the keyword value.
+
+If you know CSS well, you'll probably never have to look up the classes; you already know 
+them!
+
+And the best part: all this class-based styling can be yours for 1.5 kB (Brotli-compressed)
 
 ## Class list
 
