@@ -8,51 +8,51 @@ property--value is a tiny utility library of the CSS properties that have keywor
 
 ## Class list
 
-  * align-content--flex-start
-  * align-content--flex-end
   * align-content--center
-  * align-content--space-between (align-content--dave-matthews)
+  * align-content--flex-end
+  * align-content--flex-start
   * align-content--space-around
+  * align-content--space-between (align-content--dave-matthews)
   * align-content--space-evenly
   * align-content--stretch
-  * align-items--flex-start
-  * align-items--flex-end
-  * align-items--center
   * align-items--baseline
+  * align-items--center
+  * align-items--flex-end
+  * align-items--flex-start
   * align-items--stretch
-  * align-self--flex-start
-  * align-self--flex-end
-  * align-self--center
   * align-self--baseline
+  * align-self--center
+  * align-self--flex-end
+  * align-self--flex-start
   * align-self--stretch
   * background-attachment--fixed
-  * background-attachment--locor Contactal
+  * background-attachment--local
   * background-attachment--scroll
+  * background-position-x--center
   * background-position-x--left
   * background-position-x--right
-  * background-position-x--center
-  * background-position-y--top
   * background-position-y--bottom
   * background-position-y--center
+  * background-position-y--top
+  * background-repeat--no-repeat
+  * background-repeat--repeat
   * background-repeat--repeat-x
   * background-repeat--repeat-y
-  * background-repeat--repeat
-  * background-repeat--space
   * background-repeat--round
-  * background-repeat--no-repeat
+  * background-repeat--space
   * background-size--auto
   * background-size--contain
   * background-size--cover
   * clear--both
   * clear--left
-  * clear--right
   * clear--none
+  * clear--right
   * display--block
-  * display--inline
   * display--flex
   * display--grid
-  * display--table
+  * display--inline
   * display--inline-block
+  * display--table
   * filter--blur
   * filter--brightness
   * filter--contrast
@@ -60,32 +60,32 @@ property--value is a tiny utility library of the CSS properties that have keywor
   * filter--invert
   * filter--saturate
   * filter--sepia
-  * flex--auto
-  * flex--initial
-  * flex--none
   * flex--1
   * flex--2
   * flex--3
   * flex--4
   * flex--5
   * flex--6
-  * flex-direction--row
-  * flex-direction--row-reverse
+  * flex--auto
+  * flex--initial
+  * flex--none
   * flex-direction--column
   * flex-direction--column-reverse
+  * flex-direction--row
+  * flex-direction--row-reverse
   * flex-wrap--nowrap
   * flex-wrap--wrap
   * flex-wrap--wrap-reverse
   * float--left
   * float--right
-  * font-stretch--ultra-condensed
-  * font-stretch--extra-condensed
   * font-stretch--condensed
-  * font-stretch--semi-condensed
-  * font-stretch--normal
-  * font-stretch--semi-expanded
   * font-stretch--expanded
+  * font-stretch--extra-condensed
   * font-stretch--extra-expanded
+  * font-stretch--normal
+  * font-stretch--semi-condensed
+  * font-stretch--semi-expanded
+  * font-stretch--ultra-condensed
   * font-stretch--ultra-expanded
   * font-style--italic
   * font-weight--100 (font-weight--lighter)
@@ -97,39 +97,39 @@ property--value is a tiny utility library of the CSS properties that have keywor
   * font-weight--700 (font-weight--bolder)
   * font-weight--800
   * font-weight--900
-  * justify-content--flex-start
-  * justify-content--flex-end
   * justify-content--center
-  * justify-content--space-between (justify-content--dave-matthews)
+  * justify-content--flex-end
+  * justify-content--flex-start
   * justify-content--space-around
+  * justify-content--space-between (justify-content--dave-matthews)
   * justify-content--space-evenly
   * justify-content--stretch
-  * overflow--visible
-  * overflow--hidden
-  * overflow--scroll
   * overflow--auto
+  * overflow--hidden
   * overflow--overlay
-  * position--static
-  * position--relative
+  * overflow--scroll
+  * overflow--visible
   * position--absolute
-  * position--sticky
   * position--fixed
-  * text-align--left
-  * text-align--right
+  * position--relative
+  * position--static
+  * position--sticky
   * text-align--center
   * text-align--justify
-  * text-transform--uppercase
+  * text-align--left
+  * text-align--right
+  * text-transform--capitalize
   * text-transform--lowercase
   * text-transform--none
-  * text-transform--capitalize
+  * text-transform--uppercase
   * vertical-align--baseline
+  * vertical-align--bottom
+  * vertical-align--middle
   * vertical-align--sub
   * vertical-align--super
-  * vertical-align--text-top
   * vertical-align--text-bottom
-  * vertical-align--middle
+  * vertical-align--text-top
   * vertical-align--top
-  * vertical-align--bottom
 
 ## Support/Contributing/etc.
 
