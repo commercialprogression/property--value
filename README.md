@@ -1,6 +1,6 @@
 # property--value CSS mini-library
 
-[![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://opensource.org/licenses/mit-license.php)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 [![property--value logo](https://commercialprogression.github.io/property--value/assets/property--value_logo.png)](https://commercialprogression.github.io/property--value/)
 
