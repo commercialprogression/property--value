@@ -28,6 +28,7 @@
   align-content: space-around; }
 
 .align-content--space-evenly {
+  /* Use space-around for flexbugs support. */
   -webkit-align-content: space-around;
   -ms-flex-line-pack: space-evenly;
   align-content: space-evenly; }
@@ -396,28 +397,28 @@
   font-weight: 100; }
 
 .font-weight--200 {
-  font-weight: 100; }
+  font-weight: 200; }
 
 .font-weight--300, .font-weight--light {
-  font-weight: 100; }
+  font-weight: 300; }
 
 .font-weight--400, .font-weight--normal {
-  font-weight: 100; }
+  font-weight: 400; }
 
 .font-weight--500 {
-  font-weight: 100; }
+  font-weight: 500; }
 
 .font-weight--600, .font-weight--bold {
-  font-weight: 100; }
+  font-weight: 600; }
 
 .font-weight--700, .font-weight--bolder {
-  font-weight: 100; }
+  font-weight: 700; }
 
 .font-weight--800 {
-  font-weight: 100; }
+  font-weight: 800; }
 
 .font-weight--900 {
-  font-weight: 100; }
+  font-weight: 900; }
 
 .justify-content--flex-start {
   -webkit-box-pack: start;
