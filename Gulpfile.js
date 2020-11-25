@@ -6,47 +6,48 @@ var gulp = require('gulp'),
   gzip = require('gulp-gzip'),
   rename = require('gulp-rename'),
   sass = require('gulp-sass'),
-  sourcemaps = require('gulp-sourcemaps'),
-  watch = require('gulp-watch');
+  sourcemaps = require('gulp-sourcemaps');
 
-gulp.task('brotli', function () {
-  gulp.src('dist/property--value.min.css')
+function compileSass() {
+  return gulp.src('scss/property--value.scss')
+    .pipe(sourcemaps.init())
+    .pipe(sass().on('error', sass.logError))
+    .pipe(sourcemaps.write('.'))
+    .pipe(gulp.dest('./dist/'));
+}
+
+function compressBrotli() {
+  return gulp.src('dist/property--value.min.css')
     .pipe(brotli.compress({
       extension: "br",
       quality: 11
     }))
     .pipe(gulp.dest('./dist/'));
-});
+}
 
-gulp.task('css', function () {
-  gulp.src('dist/property--value.css')
+function compressGzip() {
+  return gulp.src('dist/property--value.min.css')
+    .pipe(gzip({
+      gzipOptions: { level: 9 }
+    }))
+    .pipe(gulp.dest('./dist/'));
+}
+
+function css() {
+  return gulp.src('dist/property--value.css')
     .pipe(cleanCSS({
       compatibility: '*'
     }))
     .pipe(rename({suffix: '.min'}))
     .pipe(gulp.dest('./dist/'));
-});
+}
 
-gulp.task('gzip', function() {
-  gulp.src('dist/property--value.min.css')
-    .pipe(gzip({
-      gzipOptions: { level: 9 }
-    }))
-    .pipe(gulp.dest('./dist/'));
-});
+var release = gulp.series(compileSass, css, gulp.parallel(compressGzip, compressBrotli));
 
-gulp.task('release', ['css', 'gzip', 'brotli']);
+exports.compileSass = compileSass;
+exports.compressBrotli = compressBrotli;
+exports.compressGzip = compressGzip;
+exports.css = css;
+exports.release = release;
 
-gulp.task('sass', function() {
-  gulp.src('scss/property--value.scss')
-    .pipe(sourcemaps.init())
-    .pipe(sass().on('error', sass.logError))
-    .pipe(sourcemaps.write('.'))
-    .pipe(gulp.dest('./dist/'));
-});
-
-gulp.task('watch', function () {
-  gulp.watch('scss/*.scss', ['sass']);
-});
-
-gulp.task('default', ['watch']);
+exports.default = release;
